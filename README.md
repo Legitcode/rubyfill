@@ -22,9 +22,7 @@ Removes all undefined, null, or empty strings from an array
 
 Returns a new array of all values for which the predicate returns true
 ```js
-[1, 2, 3, 4, 5].select(value => {
-  return value % 2 === 0;
-});
+[1, 2, 3, 4, 5].select(value => value === 2);
 
 -> [2, 4]
 ```
