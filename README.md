@@ -17,3 +17,14 @@ Removes all undefined, null, or empty strings from an array
 [1, 2, undefined, 3, "", null, 4].compact
 -> [1, 2, 3, 4]
 ```
+
+###select
+
+Returns a new array of all values for which the predicate returns true
+```js
+[1, 2, 3, 4, 5].select(function(value) {
+  return value % 2 === 0;
+});
+
+-> [2, 4]
+```
