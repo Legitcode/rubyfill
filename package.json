@@ -1,5 +1,5 @@
 {
-  "name": "rubyfill",
+  "name": "legit-rubyfill",
   "version": "0.0.1",
   "description": "A collection of Ruby'ish polyfills",
   "main": "./lib/rubyfill.js",
