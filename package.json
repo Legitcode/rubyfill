@@ -2,9 +2,21 @@
   "name": "rubyfill",
   "version": "0.0.1",
   "description": "A collection of Ruby'ish polyfills",
-  "main": "index.js",
+  "main": "./lib/rubyfill.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --opts ./mocha.opts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/legitcode/rubyfill.git"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "eslint": "^0.24.1",
+    "expect": "^1.8.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.16.1",
+    "webpack": "^1.12.1"
   },
   "author": "Darin Haener <dphaener@gmail.com> (https://github.com/dphaener)",
   "license": "ISC"
