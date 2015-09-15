@@ -1,7 +1,7 @@
 var chai = require('chai');
 var expect = chai.expect;
 
-require('../../lib/array/flatten');
+require('../../array/flatten');
 
 describe('flatten', function() {
   it('should flatten out an array of arrays', function() {
