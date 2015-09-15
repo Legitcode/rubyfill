@@ -1,7 +1,7 @@
 var chai = require('chai');
 var expect = chai.expect;
 
-require('../../lib/array/compact');
+require('../../array/compact');
 
 describe('compact', function() {
   it('should remove all undefined, null, and empty strings from the array', function() {

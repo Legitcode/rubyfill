@@ -8,6 +8,14 @@ Designed to make your javascript programming life happier
 ```bash
 npm install --save legit-rubyfill
 ```
+###Including the library
+
+~~~js
+import 'rubyfill' //whole library
+import 'rubyfill/array' //all array methods
+import 'rubyfill/string'
+import 'rubyfill/array/compact' //single method
+~~~
 
 ##Example
 

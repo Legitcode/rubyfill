@@ -2,7 +2,7 @@
   "name": "legit-rubyfill",
   "version": "0.0.3",
   "description": "A collection of Ruby'ish polyfills",
-  "main": "./lib/rubyfill.js",
+  "main": "./rubyfill.js",
   "scripts": {
     "test": "mocha --opts ./mocha.opts"
   },

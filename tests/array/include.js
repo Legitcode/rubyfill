@@ -1,6 +1,6 @@
 var chai = require('chai');
 var expect = chai.expect;
-require('../../lib/array/include');
+require('../../array/include');
 
 describe('include', function() {
   var array = [1, 2, 3, 4];
