@@ -1,1 +1,2 @@
 require('./array');
+require('./string')

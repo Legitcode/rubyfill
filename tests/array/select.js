@@ -1,7 +1,7 @@
 var chai = require('chai');
 var expect = chai.expect;
 
-require('../../lib/array/select');
+require('../../array/select');
 
 describe('select', function() {
   it('should return a new array for values that return true', function() {
