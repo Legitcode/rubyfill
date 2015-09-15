@@ -3,7 +3,7 @@ var expect = chai.expect;
 
 require('../../lib/array/flatten');
 
-describe('flatte', function() {
+describe('flatten', function() {
   it('should flatten out an array of arrays', function() {
     var ary = [[1, 2], 3, [4, 5, 6]];
 
