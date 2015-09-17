@@ -1,7 +1,9 @@
 if (!Object.prototype.map) {
   Object.prototype.map = function(callback) {
+    var array = []
     Object.keys(this).map((key, index) => {
-       callback(this[key], key, index)
+       array.push(callback(this[key], key, index))
     });
+    return array
   }
 }

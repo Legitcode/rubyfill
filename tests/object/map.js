@@ -6,10 +6,10 @@ describe('map', function() {
 
   it('should loop through results', function() {
     var object = {name: 'zach', full: 'zach silveira'}
-    object.map(value => {
-      expect(value).to.match(/zach/)
+    var result = object.map(value => {
+      return value + ' baller'
     })
-    //expect(array.map(3)).to.eql(true);
+    expect(result[0]).to.eql('zach baller');
   })
 
 });
