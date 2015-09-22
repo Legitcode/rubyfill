@@ -4,3 +4,4 @@ require('./array/include');
 require('./array/flatten');
 require('./array/first');
 require('./array/last');
+require('./array/sample');
