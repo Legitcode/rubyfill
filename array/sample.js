@@ -8,14 +8,13 @@ if (!Array.prototype.sample) {
       if(n == 1){
         return clone[Math.floor(Math.random()*clone.length)];
       }
-      else{
-        for(var i = 0; i < n; i++){
-          var index = Math.floor(Math.random()*clone.length);
-          var random = clone.splice(index, 1)[0];
-          returnedArray.push(random);
-        }
-      return returnedArray;
+
+      for(var i = 0; i < n; i++){
+        var index = Math.floor(Math.random()*clone.length);
+        var random = clone.splice(index, 1)[0];
+        returnedArray.push(random);
       }
+      return returnedArray;
     }
   });
 }
