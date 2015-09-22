@@ -11,7 +11,7 @@ describe('sample', function() {
     expect(array.include(sample)).to.eql(true);
   });
 
-  it('should grab random values from array and return an array', function() {
+  it('should grab 4 random values from array', function() {
     var array = [1,2,3,4,5,6,7,8,9];
 
     expect(array.sample(4).length).to.eql(4);
