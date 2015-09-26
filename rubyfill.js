@@ -1,2 +1,3 @@
-require('./array');
+require('./array')
 require('./string')
+require('./object')

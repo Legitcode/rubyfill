@@ -5,3 +5,6 @@ require('./array/flatten');
 require('./array/find');
 require('./array/empty');
 require('./array/any');
+require('./array/first');
+require('./array/last');
+require('./array/sample');
