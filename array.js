@@ -8,3 +8,4 @@ require('./array/any');
 require('./array/first');
 require('./array/last');
 require('./array/sample');
+require('./array/each_slice');

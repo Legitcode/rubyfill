@@ -1,6 +1,6 @@
 {
   "name": "legit-rubyfill",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A collection of Ruby'ish polyfills",
   "main": "./rubyfill.js",
   "scripts": {
@@ -12,7 +12,6 @@
   },
   "devDependencies": {
     "chai": "^3.2.0",
-    "eslint": "^0.24.1",
     "expect": "^1.8.0",
     "mocha": "^2.2.5",
     "sinon": "^1.16.1"
